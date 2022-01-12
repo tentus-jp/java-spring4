@@ -3,13 +3,13 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 
 group 'jp.tentus'
-version '1.0'
+version '1.1'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 ext {
-    lombokVersion = '1.16.10'
+    lombokVersion = '1.18.22'
     junitVersion = '4.12'
     slf4jApiVersion = '1.7.25'
     springFrameworkVersion = '4.3.10.RELEASE'
